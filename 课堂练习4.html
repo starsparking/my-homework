@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>table,th,td{border: 1px solid;border-collapse:collapse; 
+    border-spacing: 4px;}
+    th,td{padding: 15px;
+    text-align: center;}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<progress value="20" max="100"></progress>
+<table style="width: 100%;"><tr>
+<th>firstname</th><th>lastname</th><th>age</th><th colspan="2">telephone</th></tr>
+<tr><td>jill</td><td>smith</td><td>50</td><td>555555</td></tr>
+<tr><td>eve</td><td>steve</td><td>91</td><td>333333</td></tr></table>
+<br>
+<table><caption>register<th>name</th><td>gates</td></tr>
+<tr>
+    <th rowspan="2">telephone</th>
+    <td>7777777</td>
+</tr>
+</table>
+<br>
+<table style="width: 100%;">
+<tr>
+    <th>Firstname</th><th>lastname</th><th style="background-color: green;" >age</th><th colspan="2">telephone</th>
+</tr>
+<tr><td>jill</td><td>smith</td><td style="background-color: green;">50</td><td>86811234</td><td>1397726534</td>
+</tr>
+<tr><td>john</td><td>doe</td><td style="background-color: green;">80</td><th>87963241</th><th>138239891256</th></tr>
+</table>
+<form action="">
+name:<input type="text" name:="firstname" value="tom" readonl size="30px" placeholder="仅输入姓氏">gender:<input type="text" name="gender"
+maxlength="9"><!--输入最大长度-->
+</form>
+<form action=""><fieldset>
+    gender
+    <br>
+    <input type="radio" name="gender" value="男">male
+    <br>
+    <input type="radio" name="gender" value="女" checked>female
+    <br><br>
+    hobby<br>
+    <input type="checkbox" value="swimming">swimming
+    <br>
+    <input type="checkbox" value="climbing">climbing
+    <br>
+    arriving
+    <input type="date" max="2023-04-01">
+    <br>
+    leaving:
+    <input type="date" min="2023-03-01">
+    <br>
+    password:
+    <input type="password" name="psw">
+    <br>
+    <input type="range" name="666" min="-50" max="100" value="0" step="10">
+    <br>
+    <input type="submit">
+    <br>
+    <input type="color" name="favcolor">
+    <input type="button" onclick="alert('hello')" value="click">
+    <br>
+    <select name="menu" id="" size="2"> <option value="vivlo">vovlo</option>
+    <option value="bmw" selected>bmw</option>
+    </select>
+    <br>
+    <textarea name="" id="" cols="30"  rows="10"></textarea>
+</fieldset>
+</form>
+
+</body>
+</html>
